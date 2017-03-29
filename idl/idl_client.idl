@@ -1,0 +1,24 @@
+#include "common.pidl"
+module IDL
+{
+	module Client
+	{
+		module Pilot
+		{
+			module Simulator
+			{
+				struct AircraftSituation
+				{
+					Vector3 position;
+					Vector3 rotation;
+					long simulatorId;
+					float speed;
+				};
+
+			};
+
+		};
+
+	};
+
+};

@@ -1,0 +1,33 @@
+///////////////////////////////////////////////////////////
+//  common.pidl
+//  Implementation of the Class Vector2
+//  Created on:      30-Mar-2017 00:13:25
+//  Original author: The Administrator
+///////////////////////////////////////////////////////////
+
+#if !defined(EA_DFCBAF84_36AA_4999_9A7D_7C8F34F2C7F5__INCLUDED_)
+#define EA_DFCBAF84_36AA_4999_9A7D_7C8F34F2C7F5__INCLUDED_
+
+/**
+ * Structure representing a two dimensional position.
+ */
+struct Vector2
+{
+
+	double x;
+	double y;
+
+};
+
+/**
+ * Structure representing a three dimensional position.
+ */
+struct Vector3
+{
+
+	double x;
+	double y;
+	double z;
+
+};
+#endif // !defined(EA_DFCBAF84_36AA_4999_9A7D_7C8F34F2C7F5__INCLUDED_)
