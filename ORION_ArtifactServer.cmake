@@ -134,8 +134,8 @@ function(ORION_USE_OPENDDS Target)
 		target_include_directories(${Target} PUBLIC "$ENV{OPENDDS_ROOT}/ACE_wrappers")
 		target_include_directories(${Target} PUBLIC "$ENV{OPENDDS_ROOT}/ACE_wrappers/TAO")
 			
-		target_link_libraries("$ENV{OPENDDS_ROOT}/lib/*.lib")
-		target_link_libraries("$ENV{OPENDDS_ROOT}/ACE_wrappers/lib/*.lib")
+		target_link_libraries(${Target} "$ENV{OPENDDS_ROOT}/lib/*.lib")
+		target_link_libraries(${Target} "$ENV{OPENDDS_ROOT}/ACE_wrappers/lib/*.lib")
 		
 		target_compile_definitions(${Target} PUBLIC _WINSOCK_DEPRECATED_NO_WARNINGS=1)
 		target_compile_definitions(${Target} PUBLIC _CRT_SECURE_NO_WARNINGS=1)
