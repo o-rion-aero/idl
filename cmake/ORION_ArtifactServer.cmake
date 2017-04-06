@@ -130,12 +130,12 @@ endfunction()
 # Declare use of OpenDDS by a target.
 function(ORION_USE_OPENDDS Target)
 	if(WIN32)
-		target_include_directories(${Target} PUBLIC "C:/opendds-3.10-win${__PLATFORM}-vc12-${CMAKE_CFG_INTDIR}")
-		target_include_directories(${Target} PUBLIC "C:/opendds-3.10-win${__PLATFORM}-vc12-${CMAKE_CFG_INTDIR}/ACE_wrappers")
-		target_include_directories(${Target} PUBLIC "C:/opendds-3.10-win${__PLATFORM}-vc12-${CMAKE_CFG_INTDIR}/ACE_wrappers/TAO")
+		target_include_directories(${Target} PUBLIC "$ENV{OPENDDS_ROOT}")
+		target_include_directories(${Target} PUBLIC "$ENV{OPENDDS_ROOT}/ACE_wrappers")
+		target_include_directories(${Target} PUBLIC "$ENV{OPENDDS_ROOT}/ACE_wrappers/TAO")
 			
-		target_link_libraries("C:/opendds-3.10-win${__PLATFORM}-vc12-${CMAKE_CFG_INTDIR}/lib/*.lib")
-		target_link_libraries("C:/opendds-3.10-win${__PLATFORM}-vc12-${CMAKE_CFG_INTDIR}/ACE_wrappers/lib/*.lib")
+		target_link_libraries("$ENV{OPENDDS_ROOT}/lib/*.lib")
+		target_link_libraries("$ENV{OPENDDS_ROOT}/ACE_wrappers/lib/*.lib")
 		
 		target_compile_definitions(${Target} PUBLIC _WINSOCK_DEPRECATED_NO_WARNINGS=1)
 		target_compile_definitions(${Target} PUBLIC _CRT_SECURE_NO_WARNINGS=1)
