@@ -28,11 +28,12 @@
 // TAO_IDL - Generated from
 // c:\opendds-3.10-win32-debug\ace_wrappers\tao\tao_idl\be\be_codegen.cpp:461
 
-#ifndef _TAO_IDL___IDL_CLIENTS_TD1ZG0_H_
-#define _TAO_IDL___IDL_CLIENTS_TD1ZG0_H_
+#ifndef _TAO_IDL___CLIENTS_EUX9E4_H_
+#define _TAO_IDL___CLIENTS_EUX9E4_H_
 
 
-#include "idl_clientC.h"
+#include "clientC.h"
+#include "commonS.h"
 #include "tao/PortableServer/Basic_SArguments.h"
 #include "tao/PortableServer/Special_Basic_SArguments.h"
 #include "tao/PortableServer/Fixed_Size_SArgument_T.h"

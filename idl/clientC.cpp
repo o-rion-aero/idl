@@ -29,7 +29,7 @@
 // c:\opendds-3.10-win32-debug\ace_wrappers\tao\tao_idl\be\be_codegen.cpp:376
 
 
-#include "idl_clientC.h"
+#include "clientC.h"
 #include "tao/AnyTypeCode/Null_RefCount_Policy.h"
 #include "tao/AnyTypeCode/TypeCode_Constants.h"
 #include "tao/AnyTypeCode/Alias_TypeCode_Static.h"
@@ -40,7 +40,7 @@
 #include "tao/AnyTypeCode/Any_Dual_Impl_T.h"
 
 #if !defined (__ACE_INLINE__)
-#include "idl_clientC.inl"
+#include "clientC.inl"
 #endif /* !defined INLINE */
 
 // TAO_IDL - Generated from

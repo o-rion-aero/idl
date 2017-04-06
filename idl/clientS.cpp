@@ -29,11 +29,11 @@
 // TAO_IDL - Generated from
 // c:\opendds-3.10-win32-debug\ace_wrappers\tao\tao_idl\be\be_codegen.cpp:652
 
-#ifndef _TAO_IDL___IDL_CLIENTS_PWV2MW_CPP_
-#define _TAO_IDL___IDL_CLIENTS_PWV2MW_CPP_
+#ifndef _TAO_IDL___CLIENTS_IQGCOI_CPP_
+#define _TAO_IDL___CLIENTS_IQGCOI_CPP_
 
 
-#include "idl_clientS.h"
+#include "clientS.h"
 
 #endif /* ifndef */
 

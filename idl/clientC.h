@@ -28,8 +28,8 @@
 // TAO_IDL - Generated from
 // c:\opendds-3.10-win32-debug\ace_wrappers\tao\tao_idl\be\be_codegen.cpp:152
 
-#ifndef _TAO_IDL___IDL_CLIENTC_YFL7GX_H_
-#define _TAO_IDL___IDL_CLIENTC_YFL7GX_H_
+#ifndef _TAO_IDL___CLIENTC_VOR2XJ_H_
+#define _TAO_IDL___CLIENTC_VOR2XJ_H_
 
 
 #include /**/ "ace/config-all.h"
@@ -52,6 +52,8 @@
 #include "tao/Var_Size_Argument_T.h"
 #include /**/ "tao/Version.h"
 #include /**/ "tao/Versioned_Namespace.h"
+
+#include "commonC.h"
 
 #if TAO_MAJOR_VERSION != 2 || TAO_MINOR_VERSION != 2 || TAO_BETA_VERSION != 0
 #error This file should be regenerated with TAO_IDL
@@ -246,7 +248,7 @@ TAO_END_VERSIONED_NAMESPACE_DECL
 // TAO_IDL - Generated from
 // c:\opendds-3.10-win32-debug\ace_wrappers\tao\tao_idl\be\be_codegen.cpp:1703
 #if defined (__ACE_INLINE__)
-#include "idl_clientC.inl"
+#include "clientC.inl"
 #endif /* defined INLINE */
 
 #endif /* ifndef */

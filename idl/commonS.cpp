@@ -25,39 +25,15 @@
  *     http://www.cs.wustl.edu/~schmidt/TAO.html
  **/
 
-// TAO_IDL - Generated from
-// c:\opendds-3.10-win32-debug\ace_wrappers\tao\tao_idl\be\be_codegen.cpp:461
-
-#ifndef _TAO_IDL___IDL_CLIENTTYPESUPPORTS_S8GCE5_H_
-#define _TAO_IDL___IDL_CLIENTTYPESUPPORTS_S8GCE5_H_
-
-
-#include "idl_clientTypeSupportC.h"
-#include "idl_clientS.h"
-#include "tao/PortableServer/Basic_SArguments.h"
-#include "tao/PortableServer/Special_Basic_SArguments.h"
-#include "tao/PortableServer/Fixed_Size_SArgument_T.h"
-#include "tao/PortableServer/Var_Size_SArgument_T.h"
-
-#if !defined (ACE_LACKS_PRAGMA_ONCE)
-# pragma once
-#endif /* ACE_LACKS_PRAGMA_ONCE */
-
 
 // TAO_IDL - Generated from
-// c:\opendds-3.10-win32-debug\ace_wrappers\tao\tao_idl\be\be_visitor_arg_traits.cpp:68
+// c:\opendds-3.10-win32-debug\ace_wrappers\tao\tao_idl\be\be_codegen.cpp:652
 
-TAO_BEGIN_VERSIONED_NAMESPACE_DECL
-
-
-// Arg traits specializations.
-namespace TAO
-{
-}
-
-TAO_END_VERSIONED_NAMESPACE_DECL
+#ifndef _TAO_IDL___COMMONS_KNV2KV_CPP_
+#define _TAO_IDL___COMMONS_KNV2KV_CPP_
 
 
+#include "commonS.h"
 
 #endif /* ifndef */
 

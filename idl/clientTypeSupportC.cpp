@@ -29,7 +29,7 @@
 // c:\opendds-3.10-win32-debug\ace_wrappers\tao\tao_idl\be\be_codegen.cpp:376
 
 
-#include "idl_clientTypeSupportC.h"
+#include "clientTypeSupportC.h"
 #include "tao/AnyTypeCode/Null_RefCount_Policy.h"
 #include "tao/AnyTypeCode/TypeCode_Constants.h"
 #include "tao/AnyTypeCode/Alias_TypeCode_Static.h"
@@ -37,6 +37,6 @@
 #include "tao/CDR.h"
 
 #if !defined (__ACE_INLINE__)
-#include "idl_clientTypeSupportC.inl"
+#include "clientTypeSupportC.inl"
 #endif /* !defined INLINE */
 
